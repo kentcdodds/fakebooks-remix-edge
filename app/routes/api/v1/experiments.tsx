@@ -1,5 +1,5 @@
-import type { LoaderFunction } from "@remix-run/node";
-import { json } from "@remix-run/node";
+import type { LoaderFunction } from "@remix-run/server-runtime";
+import { json } from "@remix-run/server-runtime";
 import { getExperiments } from "~/models/experiments.server";
 
 export const loader: LoaderFunction = async ({ request }) => {

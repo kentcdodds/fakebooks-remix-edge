@@ -1,4 +1,4 @@
-import { json } from "@remix-run/node";
+import { json } from "@remix-run/server-runtime";
 import { getInvoiceListItems } from "~/models/invoice.server";
 
 export const loader = async () => {

@@ -1,8 +1,8 @@
 import { Outlet } from "@remix-run/react";
 import { LabelText } from "~/components";
 
-import type { LoaderFunction } from "@remix-run/node";
-import { json } from "@remix-run/node";
+import type { LoaderFunction } from "@remix-run/server-runtime";
+import { json } from "@remix-run/server-runtime";
 import { useLoaderData, NavLink } from "@remix-run/react";
 import { getInvoiceListItems } from "~/models/invoice.server";
 
